@@ -1,0 +1,157 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    margin: 0px;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.header {
+    font-size: 18px;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.header-logo {
+    font-size: 24px;
+}
+
+.header-top, .header-bottom {
+    justify-content: space-around;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-style: solid;
+    border-color: #3882F6;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 8px 20px;
+}
+
+.top-button {
+    margin-top: 8px;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    gap: 190px;
+}
+
+.header-title {
+    margin-top: 0;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.header-bottom {
+    display: flex;
+    align-content: flex-start;
+}
+
+.cards {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.card, .box {
+    width: 160px;
+}
+
+.box {
+    color: #3882F6;
+    border-radius: 12px;
+    border-style: solid;
+    height: 140px;
+    margin-bottom: 5px;
+}
+
+.header-text {
+    width: 480px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+}
+
+.quote-text {
+    padding-top: 40px;
+    width: 600px;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.quote-author {
+    margin-left: 400px;
+    font-size: 18px;
+}
+
+.information-header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800px;
+}
+
+.header-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.sign-up-button, .call-to-action-section {
+    background-color: #3882F6;
+    color: white;
+}
+
+.sign-up-button {
+    border-color: white;
+    align-self: center;
+
+}
+
+.call-to-action-section {
+    width: 600px;
+    padding: 40px 100px;
+    align-self: center;
+    display: flex;
+    align-content: center;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.footer {
+    flex-shrink: 0;
+    display: flex;
+    height: 80px;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
